@@ -1,5 +1,5 @@
 const swiper = new Swiper('.slider-content', {
-  loop: false,
+  loop: true,
   grabCursor: true,
   spaceBetween: 30,
 
@@ -113,6 +113,7 @@ const carousel = {
 
 // Initialize carousel
 carousel.init();
+
 
 
 
